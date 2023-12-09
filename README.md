@@ -26,22 +26,18 @@ O servidor será iniciado em http://localhost:3000/transactions
 
 ### Funcionalidades Principais
 
- *  Visualização de Transações e Saldo
-   
+ *  Visualização de Transações e Saldo  
     O saldo é exibido no topo da página, e as transações são listadas com detalhes, incluindo nome, valor e se são débitos ou créditos.
 
- *  Adição de Nova Transação
-   
+ *  Adição de Nova Transação  
     Preencha o formulário no topo da página com o nome e o valor da transação. Ao enviar o formulário, a transação será adicionada ao servidor e à lista de transações na 
     página.
 
- *  Edição de Transação
-   
+ *  Edição de Transação  
     Cada transação tem um botão "Editar". Ao clicar nele, o formulário no topo será preenchido com os detalhes da transação selecionada. Após a edição e o envio do 
     formulário, a transação será atualizada no servidor e na interface do usuário.
 
- *  Exclusão de Transação
-   
+ *  Exclusão de Transação  
     Cada transação possui um botão "Excluir". Ao clicar nele, a transação será removida tanto do servidor quanto da interface do usuário.
 
 ### Estrutura do Projeto

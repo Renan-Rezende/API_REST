@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    {
+      "name": "mesalidade UVV",
+      "amount": 1200,
+      "id": 1
+    },
+    {
+      "name": "mesalidade UVV",
+      "amount": -1200,
+      "id": 2
+    }
+  ]
+}

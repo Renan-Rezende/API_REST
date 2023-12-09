@@ -15,28 +15,15 @@ Este projeto é um exercício para treinar habilidades de requisições utilizan
 
    Executar a Aplicação
 
-Abra o arquivo index.html em um navegador web ou inicie um servidor local para visualizar a aplicação.
+2. **Iniciar o JSON Server**
 
-Funcionalidades Principais
-Visualização de Transações e Saldo
+   O JSON Server será usado para simular um servidor RESTful para gerenciar transações. Inicie o servidor executando o seguinte comando:
+   
+   npm install
 
-O saldo é exibido no topo da página, e as transações são listadas com detalhes, incluindo nome, valor e se são débitos ou créditos.
+3. **Executar a Aplicação**
 
-Adição de Nova Transação
+     Abra o arquivo index.html em um navegador web ou inicie um servidor local para visualizar a aplicação.
 
-Preencha o formulário no topo da página com o nome e o valor da transação. Ao enviar o formulário, a transação será adicionada ao servidor e à lista de transações na página.
-
-Edição de Transação
-
-Cada transação tem um botão "Editar". Ao clicar nele, o formulário no topo será preenchido com os detalhes da transação selecionada. Após a edição e o envio do formulário, a transação será atualizada no servidor e na interface do usuário.
-
-Exclusão de Transação
-
-Cada transação possui um botão "Excluir". Ao clicar nele, a transação será removida tanto do servidor quanto da interface do usuário.
-
-Estrutura do Projeto
-index.html: A página principal que exibe as transações e fornece formulários para adicionar e editar transações.
-script.js: O arquivo JavaScript que contém lógica para interagir com o servidor e manipular a interface do usuário.
-styles.css: O arquivo de estilo que define a aparência da aplicação.
-db.json: Um arquivo usado pelo json-server para armazenar dados simulados do servidor.
+   
 
